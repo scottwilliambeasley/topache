@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 # -*- coding: utf-8 -*-
 
 
@@ -16,8 +16,8 @@ import locale
 
 #implement a feature to freeze updating the GUI so that individual requests can be reviewed
 #only show domains by default, but still gather resource data. display resource data when opened via gui
-#write helper function to truncate/change representation of data when it exceeds the space 
-# of the column for the gui. have the tx convert the byt 
+#write helper function to truncate/change representation of data when it exceeds the space
+# of the column for the gui. have the tx convert the byt
 # I can only have 6 characters followed by the unit
 
 # ----Domains Classes----#
