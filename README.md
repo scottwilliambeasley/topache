@@ -26,13 +26,16 @@ If the domain/resource did not receive a request at all, then it does not appear
 Topaches reports the following statistics:
 
 | *Statistic* | *Description* |
-|-----------|-------------|
-| R/60s | requests per second, averaged over the last 60 seconds |
+|--------|-------------|
+| R/60s  | requests per second, averaged over the last 60 seconds |
 | R/300s | requests per second, averaged over the last 5 minutes |
 | R/900s | requests per second, averaged over the last 15 minutes |
-| R/60s | total requests received over the last minute |
-| R/300s | total requests received over the last 5 minutes |
-| R/300s | total requests received over the last 5 minutes |
+| TR1M  | total requests received over the last minute |
+| TR5M | total requests received over the last 5 minutes |
+| TR15M | total requests received over the last 15 minutes |
+| TR     | total requests received since start of topache |
+| TTX    | total transmitted bytes since start of topache |
+
 
 
 
